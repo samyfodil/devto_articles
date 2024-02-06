@@ -1,0 +1,25 @@
+{
+  "name": "devto_articles",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "import": "node ./import.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samyfodil/devto_articles.git"
+  },
+  "author": "Samy Fodil",
+  "bugs": {
+    "url": "https://github.com/samyfodil/devto_articles/issues"
+  },
+  "homepage": "https://github.com/samyfodil/devto_articles#readme",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^10.7.0",
+    "fs-extra": "^11.2.0",
+    "remark": "^15.0.1",
+    "remark-frontmatter": "^5.0.0",
+    "remark-parse": "^11.0.0",
+    "yaml": "^2.3.4"
+  }
+}
